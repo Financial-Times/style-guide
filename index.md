@@ -456,41 +456,41 @@ Origami typography uses a matrix of font variants in order to standardize typogr
 			<th>xl</th>
 			<td>40/40</td>
 			<td>40/40</td>
-			<td>40/40</td>
-			<td>40/40</td>
-			<td>40/40</td>
+			<td>28/32</td>
+			<td>28/32</td>
+			<td>28/32</td>
 		</tr>
 		<tr>
 			<th>l</th>
 			<td>26/27</td>
 			<td>26/27</td>
-			<td>26/27</td>
-			<td>26/27</td>
-			<td>26/27</td>
+			<td>21/24</td>
+			<td>21/24</td>
+			<td>21/24</td>
 		</tr>
 		<tr>
 			<th>m</th>
 			<td>20/24</td>
 			<td>20/22</td>
-			<td>20/24</td>
-			<td>20/22</td>
-			<td>20/24</td>
+			<td>14/16</td>
+			<td>14/16</td>
+			<td>14/16</td>
 		</tr>
 		<tr>
 			<th>s</th>
 			<td>15/17</td>
 			<td>15/17</td>
-			<td>15/17</td>
-			<td>15/17</td>
-			<td>15/17</td>
+			<td>12/14</td>
+			<td>12/14</td>
+			<td>12/14</td>
 		</tr>
 		<tr>
 			<th>xs</th>
 			<td>12/12</td>
 			<td>12/12</td>
-			<td>12/12</td>
-			<td>12/12</td>
-			<td>12/12</td>
+			<td>11/13</td>
+			<td>11/13</td>
+			<td>11/13</td>
 		</tr>
 
 	</tbody>
