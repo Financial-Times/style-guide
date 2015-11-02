@@ -417,9 +417,112 @@ Horizontal spacing, gutters and margins should be controlled by the Origami grid
 
 ###Font system
 
-Origami typography uses a matrix of font variants in order to standardize typography across the site. This provides a common language and helps to avoid inconsistencies.
+Origami typography uses a matrix of font variants in order to standardize typography across the site. This provides a common language and helps to avoid inconsistencies across sites.
 
-#### Sans
+###Serif typefaces
+
+<table class="o-techdocs-table" style="width: 100%">
+	<thead>
+		<tr>
+			<th>Font label</th>
+			<th><span class="font-sys--serif">Serif</span></th>
+			<th><span class="font-sys--serif-bold">SerifBold</span></th>
+			<th><span class="font-sys--serif-italic">SerifItalic</span></th>
+			<th><span class="font-sys--serif-display">SerifDisplay</span></th>
+			<th><span class="font-sys--serif-display-bold">SerifDisplayBold </span></th>
+			<th><span class="font-sys--serif-display-italic">SerifDisplayItalic</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Font name (graphics)</th>
+			<td>Financier text regular</td>
+			<td>Financier text regular</td>
+			<td>Financier text regular italic</td>
+			<td>Financier display</td>
+			<td>Financier display semibold</td>
+			<td>Financier display italic</td>
+		</tr>
+		<tr>
+			<th>CSS font-family (weight)</th>
+			<td>FinancierTextWeb (400)</td>
+			<td>FinancierTextWeb (500)</td>
+			<td>FinancierTextWeb (400)</td>
+			<td>FinancierDisplay<br />Web (400)</td>
+			<td>FinancierDisplay<br />Web (700)</td>
+			<td>FinancierDisplay<br />Web (200)</td>
+		</tr>
+		<tr>
+			<th>Variant</th>
+			<th colspan="6">Size/Line-height (px)</th>
+		</tr>
+		<tr>
+			<th>xl</th>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+		</tr>
+		<tr>
+			<th>l</th>
+			<td>26/31</td>
+			<td>26/31</td>
+			<td>26/27</td>
+			<td>26/31</td>
+			<td>26/31</td>
+			<td>26/27</td>
+		</tr>
+		<tr>
+			<th>m</th>
+			<td>20/24</td>
+			<td>20/24</td>
+			<td>22/22</td>
+			<td>20/24</td>
+			<td>20/24</td>
+			<td>22/22</td>
+		</tr>
+		<tr>
+			<th>s</th>
+			<td>16/19</td>
+			<td>16/19</td>
+			<td>15/17</td>
+			<td>16/19</td>
+			<td>16/19</td>
+			<td>15/17</td>
+		</tr>
+		<tr>
+			<th>xs</th>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+		</tr>
+	</tbody>
+</table>
+
+Serif fonts are generally used to display editorial headlines and body copy. They may also be used for large titles on other products occasionally, but despite a general impression that the FT uses serif fonts for all or most text across its digital products, this generally isn't the case and they tend to be reserved to indicate editorial content.
+
+__Miller Display Bold__ and __Miller Display Bolder__
+
+Miller is used for titles. This could be article headlines or, less commonly, a page or product title. It is generally used at a minimum of 16px. Where headlines are displayed smaller than this, a sans-serif font is generally used instead, even for article headlines, for example in a list within a module or on a search results page.
+
+Where custom fonts can't be used, Georgia is used as a fallback.
+
+__Clarion__
+
+Clarion is used for article body copy only on some products, such as the FT Web App. Where custom fonts can't be used, Georgia is used as a fallback.
+
+__Georgia__
+
+Georgia is the standard article body font and fallback for Miller and Clarion where custom fonts can't be used.
+
+
+###Sans-serif typefaces
+
 <table class="o-techdocs-table" style="width: 100%">
 	<thead>
 		<tr>
@@ -496,111 +599,6 @@ Origami typography uses a matrix of font variants in order to standardize typogr
 	</tbody>
 </table>
 
-####Serif
-<table class="o-techdocs-table" style="width: 100%">
-	<thead>
-		<tr>
-			<th>Font label</th>
-			<th><span class="font-sys--serif">Serif</span></th>
-			<th><span class="font-sys--serif-bold">SerifBold</span></th>
-			<th><span class="font-sys--serif-italic">SerifItalic</span></th>
-			<th><span class="font-sys--serif-display">SerifDisplay</span></th>
-			<th><span class="font-sys--serif-display-bold">SerifDisplayBold </span></th>
-			<th><span class="font-sys--serif-display-italic">SerifDisplayItalic</span></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Font name (graphics)</th>
-			<td>Financier text regular</td>
-			<td>Financier text regular</td>
-			<td>Financier text regular italic</td>
-			<td>Financier display</td>
-			<td>Financier display semibold</td>
-			<td>Financier display italic</td>
-		</tr>
-		<tr>
-			<th>CSS font-family (weight)</th>
-			<td>FinancierTextWeb (400)</td>
-			<td>FinancierTextWeb (500)</td>
-			<td>FinancierTextWeb (400)</td>
-			<td>FinancierDisplay<br />Web (400)</td>
-			<td>FinancierDisplay<br />Web (600)</td>
-			<td>FinancierDisplay<br />Web (200)</td>
-		</tr>
-		<tr>
-			<th>Variant</th>
-			<th colspan="6">Size/Line-height (px)</th>
-		</tr>
-		<tr>
-			<th>xl</th>
-			<td>40/40</td>
-			<td>40/40</td>
-			<td>40/40</td>
-			<td>40/40</td>
-			<td>40/40</td>
-			<td>40/40</td>
-		</tr>
-		<tr>
-			<th>l</th>
-			<td>26/31</td>
-			<td>26/31</td>
-			<td>26/27</td>
-			<td>26/31</td>
-			<td>26/31</td>
-			<td>26/27</td>
-		</tr>
-		<tr>
-			<th>m</th>
-			<td>20/24</td>
-			<td>20/24</td>
-			<td>22/22</td>
-			<td>20/24</td>
-			<td>20/24</td>
-			<td>22/22</td>
-		</tr>
-		<tr>
-			<th>s</th>
-			<td>16/19</td>
-			<td>16/19</td>
-			<td>15/17</td>
-			<td>16/19</td>
-			<td>16/19</td>
-			<td>15/17</td>
-		</tr>
-		<tr>
-			<th>xs</th>
-			<td>12/12</td>
-			<td>12/12</td>
-			<td>12/12</td>
-			<td>12/12</td>
-			<td>12/12</td>
-			<td>12/12</td>
-		</tr>
-	</tbody>
-</table>
-
-
-###Serif typefaces
-
-Serif fonts are generally used to display editorial headlines and body copy. They may also be used for large titles on other products occasionally, but despite a general impression that the FT uses serif fonts for all or most text across its digital products, this generally isn't the case and they tend to be reserved to indicate editorial content.
-
-__Miller Display Bold__ and __Miller Display Bolder__
-
-Miller is used for titles. This could be article headlines or, less commonly, a page or product title. It is generally used at a minimum of 16px. Where headlines are displayed smaller than this, a sans-serif font is generally used instead, even for article headlines, for example in a list within a module or on a search results page.
-
-Where custom fonts can't be used, Georgia is used as a fallback.
-
-__Clarion__
-
-Clarion is used for article body copy only on some products, such as the FT Web App. Where custom fonts can't be used, Georgia is used as a fallback.
-
-__Georgia__
-
-Georgia is the standard article body font and fallback for Miller and Clarion where custom fonts can't be used.
-
-
-###Sans-serif typefaces
 
 Sans-serif fonts are used widely for non-editorial text. This includes module titles, bylines and date stamps etc within editorial articles, as well as all other content such as navigation, footers and service and tool pages.
 
