@@ -415,7 +415,94 @@ Horizontal spacing, gutters and margins should be controlled by the Origami grid
 
 ##Fonts/Typefaces
 
+###Font system
+
+Origami typography uses a matrix of font variants in order to standardize typography across the site. This provides a common language and helps to avoid inconsistencies across sites.
+
 ###Serif typefaces
+
+<table class="o-techdocs-table" style="width: 100%">
+	<thead>
+		<tr>
+			<th>Font label</th>
+			<th><span class="font-sys--serif">Serif</span></th>
+			<th><span class="font-sys--serif-bold">SerifBold</span></th>
+			<th><span class="font-sys--serif-italic">SerifItalic</span></th>
+			<th><span class="font-sys--serif-display">SerifDisplay</span></th>
+			<th><span class="font-sys--serif-display-bold">SerifDisplayBold </span></th>
+			<th><span class="font-sys--serif-display-italic">SerifDisplayItalic</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Font name (graphics)</th>
+			<td>Financier text regular</td>
+			<td>Financier text regular</td>
+			<td>Financier text regular italic</td>
+			<td>Financier display</td>
+			<td>Financier display semibold</td>
+			<td>Financier display italic</td>
+		</tr>
+		<tr>
+			<th>CSS font-family (weight)</th>
+			<td>FinancierTextWeb (400)</td>
+			<td>FinancierTextWeb (500)</td>
+			<td>FinancierTextWeb (400)</td>
+			<td>FinancierDisplay<br />Web (400)</td>
+			<td>FinancierDisplay<br />Web (700)</td>
+			<td>FinancierDisplay<br />Web (200)</td>
+		</tr>
+		<tr>
+			<th>Variant</th>
+			<th colspan="6">Size/Line-height (px)</th>
+		</tr>
+		<tr>
+			<th>xl</th>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>40/40</td>
+		</tr>
+		<tr>
+			<th>l</th>
+			<td>26/31</td>
+			<td>26/31</td>
+			<td>26/27</td>
+			<td>26/31</td>
+			<td>26/31</td>
+			<td>26/27</td>
+		</tr>
+		<tr>
+			<th>m</th>
+			<td>20/24</td>
+			<td>20/24</td>
+			<td>22/22</td>
+			<td>20/24</td>
+			<td>20/24</td>
+			<td>22/22</td>
+		</tr>
+		<tr>
+			<th>s</th>
+			<td>16/19</td>
+			<td>16/19</td>
+			<td>15/17</td>
+			<td>16/19</td>
+			<td>16/19</td>
+			<td>15/17</td>
+		</tr>
+		<tr>
+			<th>xs</th>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>12/12</td>
+		</tr>
+	</tbody>
+</table>
 
 Serif fonts are generally used to display editorial headlines and body copy. They may also be used for large titles on other products occasionally, but despite a general impression that the FT uses serif fonts for all or most text across its digital products, this generally isn't the case and they tend to be reserved to indicate editorial content.
 
@@ -435,6 +522,83 @@ Georgia is the standard article body font and fallback for Miller and Clarion wh
 
 
 ###Sans-serif typefaces
+
+<table class="o-techdocs-table" style="width: 100%">
+	<thead>
+		<tr>
+			<th>Font label</th>
+			<th><span class="font-sys--sans">Sans</span></th>
+			<th><span class="font-sys--sans-bold">SansBold</span></th>
+			<th><span class="font-sys--sans-data">SansData</span></th>
+			<th><span class="font-sys--sans-data-bold">SansDataBold</span></th>
+			<th><span class="font-sys--sans-data-italic">SansDataItalic</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Font name<br /> (graphics)</th>
+			<td>Metric light</td>
+			<td>Metric semibold</td>
+			<td>Metric regular</td>
+			<td>Metric semibold</td>
+			<td>Metric regular italic</td>
+		</tr>
+		<tr>
+			<th>CSS font-family<br /> (weight)</th>
+			<td>MetricWeb<br /> (200)</td>
+			<td>MetricWeb<br /> (600)</td>
+			<td>MetricWeb<br /> (400)</td>
+			<td>MetricWeb<br /> (600)</td>
+			<td>MetricWeb<br /> (400)</td>
+		</tr>
+		<tr>
+			<th>Variant</th>
+			<th colspan="5">Size/Line-height (px)</th>
+		</tr>
+		<tr>
+			<th>xl</th>
+			<td>40/40</td>
+			<td>40/40</td>
+			<td>28/32</td>
+			<td>28/32</td>
+			<td>28/32</td>
+		</tr>
+		<tr>
+			<th>l</th>
+			<td>26/27</td>
+			<td>26/27</td>
+			<td>21/24</td>
+			<td>21/24</td>
+			<td>21/24</td>
+		</tr>
+		<tr>
+			<th>m</th>
+			<td>20/24</td>
+			<td>20/22</td>
+			<td>14/16</td>
+			<td>14/16</td>
+			<td>14/16</td>
+		</tr>
+		<tr>
+			<th>s</th>
+			<td>15/17</td>
+			<td>15/17</td>
+			<td>12/14</td>
+			<td>12/14</td>
+			<td>12/14</td>
+		</tr>
+		<tr>
+			<th>xs</th>
+			<td>12/12</td>
+			<td>12/12</td>
+			<td>11/13</td>
+			<td>11/13</td>
+			<td>11/13</td>
+		</tr>
+
+	</tbody>
+</table>
+
 
 Sans-serif fonts are used widely for non-editorial text. This includes module titles, bylines and date stamps etc within editorial articles, as well as all other content such as navigation, footers and service and tool pages.
 
